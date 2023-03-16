@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>logo - Menu - Botão Pesquina - Toggle</title>
+  <!--CSS -->
+  <link rel="stylesheet" href="assets/css/style-principal.css">
+  <!--Query-->
+  <link rel="stylesheet" href="assets/css/query.css">
+</head>
+<body>
+  <!--header-->
+  <header>
+    <a href="#"><img src="assets/img/logo.png" alt="" class="logoSil"></a>
+    <!--menu mobile-->
+    <div class="menuTobble" onclick="toggkeMenu();"></div>
+    <!--menu-->
+    <ul class="navigation">
+      <li><a href="#banner" onclick="toggkeMenu();">Início</a></li>
+      <li><a href="#sobre" onclick="toggkeMenu();">Sobre</a></li>
+      <li><a href="#habilidades" onclick="toggkeMenu();">Habilidades</a></li>
+      <li><a href="#projetos" onclick="toggkeMenu();">Projetos</a></li>
+      <li><a href="#contatos" onclick="toggkeMenu();">Contatos</a></li>
+    </ul>
+    <!--btn pesquisar-->
+    <div class="input-box">
+      <input type="text" placeholder="Pesquisar...">
+      <span class="search">
+        <ion-icon name="search-outline" class="outline"></ion-icon>
+      </span>
+      <ion-icon name="close-outline" class="close"></ion-icon>
+    </div><!--btn pesquisar-->
+  </header>
+  <main></main>
+ <footer>
+  <p> ©  2023 - Silvani - Todos os Direitos Reservado</p>
+  <ul>
+      <p>Redes Sociais</p>
+      <li><a href="#" target="_blank"><ion-icon name="logo-facebook" class="redes"></ion-icon></a></li>
+      <li><a href="#" target="_blank"><ion-icon name="logo-instagram" class="redes"></ion-icon></a></li>
+      <li><a href="#" target="_blank"><ion-icon name="logo-linkedin" class="redes"></ion-icon></a></li>
+      <li><a href="#" target="_blank"><ion-icon name="logo-github" class="redes"></ion-icon></a></li>
+      <li><a href="#" target="_blank"><ion-icon name="logo-github" class="redes"></ion-icon></a></li>
+  </ul>
+ </footer>
+  <!--JS-->
+  <script src="assets/js/script.js"></script>
+  <!--icones externos-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+  </script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--icones externos-->
+</body>
+</html>
